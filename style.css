@@ -29,4 +29,15 @@ h2 {
   margin-bottom: 20px;
   background: #fafafa;
   transition: 0.3s;
+}.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
 }
