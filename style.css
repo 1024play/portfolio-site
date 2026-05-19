@@ -28,16 +28,44 @@ h2 {
   padding: 20px;
   margin-bottom: 20px;
   background: #fafafa;
-  transition: 0.3s;
-}.card {
+
   transition: 0.3s;
 }
 
+
 .card:hover {
-  transform: translateY(-5px);
+ transform: translateY(-5px);
 }
 
 img {
   width: 100%;
   border-radius: 12px;
+} 
+.hero {
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: white;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
 }
